@@ -56,6 +56,8 @@
     <None Include="Login.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Navigation\Forum\PerformanceTests\HomePage.webtest" />
+    <None Include="Navigation\Forum\PerformanceTests\TestCategory2.webtest" />
     <None Include="UserSettings\LoadTests\ConstantLoadWithTwentyFiveUsers.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
