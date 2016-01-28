@@ -67,6 +67,12 @@
     <None Include="UserSettings\LoadTests\ConstantLoadWithSeventyFiveUsers.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="UserSettings\LoadTests\StepLoadWithMaxThousandUsers.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="UserSettings\LoadTests\StepLoadWithMaxTwoHundredUsers.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="UserSettings\PerformanceTests\ModifyPersonalDataFields.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
