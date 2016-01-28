@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="ModifyEducationFields" Id="38e517bd-5044-48bb-bfbe-619254ff1eaa" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="ModifyEducationFields.2fa7c8b0-e1f9-4f8d-8cea-c5d1d5a2d48c.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <IncludedWebTest Name="Login" Path="..\login.webtest" Id="0fecc529-8368-4279-a5b2-8854dc7fb89d" IsCodedWebTest="False" InheritWebTestSettings="False" />
+    <Request Method="GET" Guid="c1a8057b-8e39-40aa-b89d-7a5b5e08f64d" Version="1.1" Url="http://stage.telerikacademy.com/Users/Profile/Settings" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="89f89343-72e5-4f95-bdc7-19fc8ecdd857" Version="1.1" Url="http://stage.telerikacademy.com/fonts/glyphicons-halflings-regular.eot" ThinkTime="194" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://stage.telerikacademy.com/Users/Profile/Settings" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.FirstName" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="FirstName" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.LastName" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="LastName" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam3.FirstNameEn" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="FirstNameEn" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam4.LastNameEn" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="LastNameEn" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam5.BirthDay" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="BirthDay" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam6.IsMale" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="MaleRadioBtn" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam7.CityId" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="CityId" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam8.WorkEducationStatusId" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="WorkEducationStatusId" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam9.Phone" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="Phone" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam10.CityId_input" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="Bg&quot;:&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;,&quot;Na" />
+            <RuleParameter Name="Index" Value="2" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam11.UniversityId_input" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="me&quot;:&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;,&quot;Or" />
+            <RuleParameter Name="Index" Value="12" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam12.UniversityId" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="min=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; dat" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="POST" Guid="d5aa01cc-36a1-48b8-bd32-90efa49ac422" Version="1.1" Url="http://stage.telerikacademy.com/Users/Profile/Settings" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="59cfeedd-4097-4c62-8c44-bf4955cd7af5" Version="1.1" Url="http://stage.telerikacademy.com/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://stage.telerikacademy.com/Users/Profile/Settings" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://stage.telerikacademy.com/Users/Profile/Settings" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__RequestVerificationToken" Value="{{$HIDDEN1.__RequestVerificationToken}}" RecordedValue="aurI-_1M14loSjhuaNI82TR2J_WD9BTpDTIrUNNPdNwDWIZNCqN6hpHlgAw2g9Zx8D6_qSv4R2Fwp7QdOkPzvdQcfNQ1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FirstName" Value="Тим" RecordedValue="Тим" CorrelationBinding="{{FormPostParam1.FirstName}}" UrlEncode="True" />
+        <FormPostParameter Name="LastName" Value="Грифин" RecordedValue="Грифин" CorrelationBinding="{{FormPostParam2.LastName}}" UrlEncode="True" />
+        <FormPostParameter Name="FirstNameEn" Value="Team" RecordedValue="Team" CorrelationBinding="{{FormPostParam3.FirstNameEn}}" UrlEncode="True" />
+        <FormPostParameter Name="LastNameEn" Value="Griffin" RecordedValue="Griffin" CorrelationBinding="{{FormPostParam4.LastNameEn}}" UrlEncode="True" />
+        <FormPostParameter Name="BirthDay" Value="19/02/1990" RecordedValue="19/02/1990" CorrelationBinding="{{FormPostParam5.BirthDay}}" UrlEncode="True" />
+        <FormPostParameter Name="IsMale" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam6.IsMale}}" UrlEncode="True" />
+        <FormPostParameter Name="CityId_input" Value="Плевен" RecordedValue="Плевен" CorrelationBinding="{{FormPostParam10.CityId_input}}" UrlEncode="True" />
+        <FormPostParameter Name="CityId" Value="2" RecordedValue="2" CorrelationBinding="{{FormPostParam7.CityId}}" UrlEncode="True" />
+        <FormPostParameter Name="WorkEducationStatusId" Value="3" RecordedValue="3" CorrelationBinding="{{FormPostParam8.WorkEducationStatusId}}" UrlEncode="True" />
+        <FormPostParameter Name="Phone" Value="+359888123456" RecordedValue="+359888123456" CorrelationBinding="{{FormPostParam9.Phone}}" UrlEncode="True" />
+        <FormPostParameter Name="About" Value="Lorem ipsum" RecordedValue="Lorem ipsum" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="UniversityId_input" Value="Университет в България" RecordedValue="Университет в България" CorrelationBinding="{{FormPostParam11.UniversityId_input}}" UrlEncode="True" />
+        <FormPostParameter Name="UniversityId" Value="2" RecordedValue="2" CorrelationBinding="{{FormPostParam12.UniversityId}}" UrlEncode="True" />
+        <FormPostParameter Name="FacultyName" Value="Physics Faculty" RecordedValue="Physics Faculty" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="UniversitySpeciality" Value="Applied Physics" RecordedValue="Applied Physics" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FacultyNumber" Value="123456789" RecordedValue="123456789" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="SchoolName" Value="High School of Mathematics &quot;Dr Petar Beron&quot; - Varna" RecordedValue="High School of Mathematics &quot;Dr Petar Beron&quot; - Varna" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Website" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="SkypeUsername" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FacebookUrl" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="GooglePlusUrl" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="LinkedInUrl" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="TwitterUrl" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="GitHubUrl" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="StackOverflowUrl" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
