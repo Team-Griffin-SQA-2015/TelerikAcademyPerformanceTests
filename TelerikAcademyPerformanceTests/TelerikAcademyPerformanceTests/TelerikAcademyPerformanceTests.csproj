@@ -62,6 +62,9 @@
     <None Include="Navigation\Forum\LoadTests\ConstantLoadWithTenUsersHomePageHundredIterations.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Navigation\Forum\LoadTests\StepLoadWithMaxHundredUsersHomePage.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Navigation\Forum\PerformanceTests\HomePage.webtest" />
     <None Include="Navigation\Forum\PerformanceTests\TestCategory2.webtest" />
     <None Include="UserSettings\LoadTests\ConstantLoadWithTwentyFiveUsers.loadtest">
