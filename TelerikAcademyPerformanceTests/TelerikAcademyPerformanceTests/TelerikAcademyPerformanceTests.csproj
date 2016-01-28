@@ -56,6 +56,12 @@
     <None Include="Login.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Navigation\Forum\LoadTests\ConstantLoadWithTenUsersHomePageFiveMinuteDuration.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\Forum\LoadTests\ConstantLoadWithTenUsersHomePageHundredIterations.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Navigation\Forum\PerformanceTests\HomePage.webtest" />
     <None Include="Navigation\Forum\PerformanceTests\TestCategory2.webtest" />
     <None Include="UserSettings\LoadTests\ConstantLoadWithTwentyFiveUsers.loadtest">
@@ -71,6 +77,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
