@@ -79,6 +79,18 @@
     </None>
     <None Include="Navigation\Forum\PerformanceTests\HomePage.webtest" />
     <None Include="Navigation\Forum\PerformanceTests\TestCategory2.webtest" />
+    <None Include="Navigation\Help\PerformanceTests\DownloadAntiCheat.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\Help\PerformanceTests\TermsAndConditions.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\Help\PerformanceTests\AcademyWebsite.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\Help\PerformanceTests\BgCoder.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="UserSettings\LoadTests\ConstantLoadWithTwentyFiveUsers.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
