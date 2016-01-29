@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WebTest Name="OpenVideo" Id="27994d50-d01b-44e9-a571-24e7d94fc1d4" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.aecda0b9-5252-4dd6-a04b-1aea19299678.rec.webtestresult" ResultsLocale="">
   <Items>
-    <Request Method="GET" Guid="89eef948-abe6-4864-bd74-23a86ef85833" Version="1.1" Url="http://stage.telerikacademy.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="89eef948-abe6-4864-bd74-23a86ef85833" Version="1.1" Url="{{AcademyStage}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <DependentRequests>
-        <Request Method="GET" Guid="0c540c20-ec2c-4257-ad87-6ad01c7b88a7" Version="1.1" Url="http://stage.telerikacademy.com/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="GET" Guid="0c540c20-ec2c-4257-ad87-6ad01c7b88a7" Version="1.1" Url="{{AcademyStage}}/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
           <Headers>
-            <Header Name="Referer" Value="http://stage.telerikacademy.com/" />
+            <Header Name="Referer" Value="{{AcademyStage}}/" />
           </Headers>
           <QueryStringParameters>
             <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
           </QueryStringParameters>
         </Request>
-        <Request Method="GET" Guid="ec3568c7-79e2-4150-a8d4-ee8fa568adaf" Version="1.1" Url="http://staticxx.facebook.com/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="GET" Guid="ec3568c7-79e2-4150-a8d4-ee8fa568adaf" Version="1.1" Url="{{WebServer2}}/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
           <Headers>
-            <Header Name="Referer" Value="http://stage.telerikacademy.com/" />
+            <Header Name="Referer" Value="{{AcademyStage}}/" />
           </Headers>
           <QueryStringParameters>
             <QueryStringParameter Name="version" Value="42" RecordedValue="42" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
           </QueryStringParameters>
         </Request>
-        <Request Method="GET" Guid="e2336d71-c68d-43b3-84ac-e44430dad02a" Version="1.1" Url="https://staticxx.facebook.com/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="GET" Guid="e2336d71-c68d-43b3-84ac-e44430dad02a" Version="1.1" Url="{{WebServer3}}/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
           <Headers>
-            <Header Name="Referer" Value="http://stage.telerikacademy.com/" />
+            <Header Name="Referer" Value="{{AcademyStage}}/" />
           </Headers>
           <QueryStringParameters>
             <QueryStringParameter Name="version" Value="42" RecordedValue="42" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -53,7 +53,7 @@
         </ExtractionRule>
       </CorrelationExtractionRules>
     </Request>
-    <Request Method="GET" Guid="b4e691b7-fc60-422c-9997-bbc67343e647" Version="1.1" Url="http://www.youtube.com/watch" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="b4e691b7-fc60-422c-9997-bbc67343e647" Version="1.1" Url="{{WebServer4}}/watch" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <CorrelationExtractionRules>
         <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam227.v" DisplayName="" Description="">
           <RuleParameters>
@@ -830,24 +830,24 @@
         <QueryStringParameter Name="v" Value="oQdzXv6eH6E" RecordedValue="oQdzXv6eH6E" CorrelationBinding="{{QueryStringParam226.v}}" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="a84c1c9c-90f5-4a1e-9d6c-4d599263df28" Version="1.1" Url="http://www.youtube.com/watch" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="a84c1c9c-90f5-4a1e-9d6c-4d599263df28" Version="1.1" Url="{{WebServer4}}/watch" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <QueryStringParameters>
         <QueryStringParameter Name="v" Value="oQdzXv6eH6E" RecordedValue="oQdzXv6eH6E" CorrelationBinding="{{QueryStringParam227.v}}" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="46ec13ff-d5ae-4931-9fa7-98903a093eb1" Version="1.1" Url="https://r1---sn-bavc5aoxu-nv4e.googlevideo.com/crossdomain.xml" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="46ec13ff-d5ae-4931-9fa7-98903a093eb1" Version="1.1" Url="{{WebServer5}}/crossdomain.xml" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
     </Request>
-    <Request Method="GET" Guid="0489866f-7a29-4396-af3f-02740aa3be45" Version="1.1" Url="https://r1---sn-bavc5aoxu-nv4e.googlevideo.com/generate_204" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="0489866f-7a29-4396-af3f-02740aa3be45" Version="1.1" Url="{{WebServer5}}/generate_204" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
     </Request>
-    <Request Method="GET" Guid="94b48a5a-4b4b-4b4c-9f30-3d0897931667" Version="1.1" Url="https://s.youtube.com/api/stats/qoe" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="94b48a5a-4b4b-4b4c-9f30-3d0897931667" Version="1.1" Url="{{WebServer7}}/api/stats/qoe" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="event" Value="streamingstats" RecordedValue="streamingstats" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -878,9 +878,9 @@
         <QueryStringParameter Name="cmt" Value="0.005:0" RecordedValue="0.005:0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="20abf89d-33dd-48d0-ac72-1f60a81c1dcd" Version="1.1" Url="https://r1---sn-bavc5aoxu-nv4e.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="20abf89d-33dd-48d0-ac72-1f60a81c1dcd" Version="1.1" Url="{{WebServer5}}/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <CorrelationExtractionRules>
         <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam680.id" DisplayName="" Description="">
@@ -1603,9 +1603,9 @@
         <QueryStringParameter Name="rbuf" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="3adf86b0-8482-4d0a-bee3-bd9fd886e003" Version="1.1" Url="https://r1---sn-bavc5aoxu-nv4e.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="3adf86b0-8482-4d0a-bee3-bd9fd886e003" Version="1.1" Url="{{WebServer5}}/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <CorrelationExtractionRules>
         <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam831.id" DisplayName="" Description="">
@@ -4781,9 +4781,9 @@
         <QueryStringParameter Name="rbuf" Value="0" RecordedValue="0" CorrelationBinding="{{QueryStringParam713.rbuf}}" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="POST" Guid="63c2a20e-d300-4900-9baa-a493b0f1c4da" Version="1.1" Url="https://www.youtube.com/annotations_invideo" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="POST" Guid="63c2a20e-d300-4900-9baa-a493b0f1c4da" Version="1.1" Url="{{WebServer6}}/annotations_invideo" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="cap_hist" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam829.cap_hist}}" UrlEncode="False" UseToGroupResults="False" />
@@ -4791,9 +4791,9 @@
       </QueryStringParameters>
       <FormPostHttpBody />
     </Request>
-    <Request Method="GET" Guid="c17829cc-a930-48c2-95eb-7400faa2530a" Version="1.1" Url="https://r3---sn-nv47ln7k.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="c17829cc-a930-48c2-95eb-7400faa2530a" Version="1.1" Url="{{WebServer8}}/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="id" Value="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" RecordedValue="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" CorrelationBinding="{{QueryStringParam831.id}}" UrlEncode="False" UseToGroupResults="False" />
@@ -4835,9 +4835,9 @@
         <QueryStringParameter Name="rbuf" Value="0" RecordedValue="0" CorrelationBinding="{{QueryStringParam867.rbuf}}" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="14bb87c2-352c-4a81-9fd3-276743d69dbe" Version="1.1" Url="https://r3---sn-nv47ln7k.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="14bb87c2-352c-4a81-9fd3-276743d69dbe" Version="1.1" Url="{{WebServer8}}/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="id" Value="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" RecordedValue="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" CorrelationBinding="{{QueryStringParam886.id}}" UrlEncode="False" UseToGroupResults="False" />
@@ -4879,9 +4879,9 @@
         <QueryStringParameter Name="rbuf" Value="0" RecordedValue="0" CorrelationBinding="{{QueryStringParam922.rbuf}}" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="4924c524-1481-41f4-a41e-e1b4579f5b5c" Version="1.1" Url="https://r3---sn-nv47ln7k.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="4924c524-1481-41f4-a41e-e1b4579f5b5c" Version="1.1" Url="{{WebServer8}}/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="id" Value="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" RecordedValue="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" CorrelationBinding="{{QueryStringParam933.id}}" UrlEncode="False" UseToGroupResults="False" />
@@ -4923,9 +4923,9 @@
         <QueryStringParameter Name="rbuf" Value="3695" RecordedValue="3695" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="877c05c5-0072-4bd4-baf1-9a33df2cec75" Version="1.1" Url="https://r3---sn-nv47ln7k.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="877c05c5-0072-4bd4-baf1-9a33df2cec75" Version="1.1" Url="{{WebServer8}}/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="id" Value="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" RecordedValue="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" CorrelationBinding="{{QueryStringParam1000.id}}" UrlEncode="False" UseToGroupResults="False" />
@@ -4967,9 +4967,9 @@
         <QueryStringParameter Name="rbuf" Value="3791" RecordedValue="3791" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="723af3c1-4fdc-451c-8655-4774c4abc05d" Version="1.1" Url="https://s.youtube.com/api/stats/playback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="723af3c1-4fdc-451c-8655-4774c4abc05d" Version="1.1" Url="{{WebServer7}}/api/stats/playback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="ns" Value="yt" RecordedValue="yt" CorrelationBinding="{{QueryStringParam1132.ns}}" UrlEncode="False" UseToGroupResults="False" />
@@ -5005,9 +5005,9 @@
         <QueryStringParameter Name="afmt" Value="140" RecordedValue="140" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="df88349e-4bd8-440d-b32d-48b239daab71" Version="1.1" Url="https://www.youtube.com/ptracking" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="df88349e-4bd8-440d-b32d-48b239daab71" Version="1.1" Url="{{WebServer6}}/ptracking" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="html5" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -5019,9 +5019,9 @@
         <QueryStringParameter Name="pltype" Value="contentugc" RecordedValue="contentugc" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="0c775ee6-ebad-46d8-9e18-d46ef3778ca7" Version="1.1" Url="https://r3---sn-nv47ln7k.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="0c775ee6-ebad-46d8-9e18-d46ef3778ca7" Version="1.1" Url="{{WebServer8}}/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="id" Value="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" RecordedValue="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" CorrelationBinding="{{QueryStringParam1354.id}}" UrlEncode="False" UseToGroupResults="False" />
@@ -5063,9 +5063,9 @@
         <QueryStringParameter Name="rbuf" Value="7911" RecordedValue="7911" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="fa7907a9-ca54-4c9c-83db-097ddf2169f0" Version="1.1" Url="https://www.youtube.com/csi_204" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="fa7907a9-ca54-4c9c-83db-097ddf2169f0" Version="1.1" Url="{{WebServer6}}/csi_204" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="v" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -5096,9 +5096,9 @@
         <QueryStringParameter Name="it" Value="st.173,req_.2,rcv_.194" RecordedValue="st.173,req_.2,rcv_.194" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="fd7a61ff-b39e-4e45-a155-fa33bc398b50" Version="1.1" Url="https://www.youtube.com/player_204" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="fd7a61ff-b39e-4e45-a155-fa33bc398b50" Version="1.1" Url="{{WebServer6}}/player_204" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="a-v" Value="oQdzXv6eH6E" RecordedValue="oQdzXv6eH6E" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -5131,9 +5131,9 @@
         <QueryStringParameter Name="el" Value="detailpage" RecordedValue="detailpage" CorrelationBinding="{{QueryStringParam1759.el}}" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="d4374d03-24d1-44b8-a2a3-2e1ef0d12806" Version="1.1" Url="https://www.youtube.com/gen_204" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="d4374d03-24d1-44b8-a2a3-2e1ef0d12806" Version="1.1" Url="{{WebServer6}}/gen_204" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="a" Value="resolution" RecordedValue="resolution" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -5145,19 +5145,19 @@
         <QueryStringParameter Name="win_height" Value="376" RecordedValue="376" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="ae99fbde-e8a5-4391-8522-0013d17fd4e9" Version="1.1" Url="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.031mdWrIyGE.O/m=card,gapi_iframes/rt=j/sv=1/d=1/ed=1/am=AAQ/rs=AHpOoo9LVH8q4HIB6ymfgTF00d12dbkTeA/cb=gapi.loaded_0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="ae99fbde-e8a5-4391-8522-0013d17fd4e9" Version="1.1" Url="{{WebServer9}}/_/scs/abc-static/_/js/k=gapi.gapi.en.031mdWrIyGE.O/m=card,gapi_iframes/rt=j/sv=1/d=1/ed=1/am=AAQ/rs=AHpOoo9LVH8q4HIB6ymfgTF00d12dbkTeA/cb=gapi.loaded_0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
     </Request>
-    <Request Method="GET" Guid="55d78735-f593-4df9-8bda-c8a30a0cb63d" Version="1.1" Url="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.031mdWrIyGE.O/m=gapi_iframes_style_slide_menu/exm=card,gapi_iframes/rt=j/sv=1/d=1/ed=1/am=AAQ/rs=AHpOoo9LVH8q4HIB6ymfgTF00d12dbkTeA/cb=gapi.loaded_1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="55d78735-f593-4df9-8bda-c8a30a0cb63d" Version="1.1" Url="{{WebServer9}}/_/scs/abc-static/_/js/k=gapi.gapi.en.031mdWrIyGE.O/m=gapi_iframes_style_slide_menu/exm=card,gapi_iframes/rt=j/sv=1/d=1/ed=1/am=AAQ/rs=AHpOoo9LVH8q4HIB6ymfgTF00d12dbkTeA/cb=gapi.loaded_1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
     </Request>
-    <Request Method="GET" Guid="cf5a9bd4-5fbf-4a62-968d-d9ab48e41e41" Version="1.1" Url="https://r3---sn-nv47ln7k.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="cf5a9bd4-5fbf-4a62-968d-d9ab48e41e41" Version="1.1" Url="{{WebServer8}}/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="id" Value="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" RecordedValue="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" CorrelationBinding="{{QueryStringParam2013.id}}" UrlEncode="False" UseToGroupResults="False" />
@@ -5199,14 +5199,14 @@
         <QueryStringParameter Name="rbuf" Value="15624" RecordedValue="15624" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="d87099f5-ff7b-448c-bac9-981305bef8f0" Version="1.1" Url="https://googleads.g.doubleclick.net/pagead/id" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="d87099f5-ff7b-448c-bac9-981305bef8f0" Version="1.1" Url="{{WebServer10}}/pagead/id" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
     </Request>
-    <Request Method="GET" Guid="76a5ac7b-a63b-4acc-b075-e9b200f33420" Version="1.1" Url="https://r3---sn-nv47ln7k.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="76a5ac7b-a63b-4acc-b075-e9b200f33420" Version="1.1" Url="{{WebServer8}}/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="id" Value="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" RecordedValue="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" CorrelationBinding="{{QueryStringParam2080.id}}" UrlEncode="False" UseToGroupResults="False" />
@@ -5248,9 +5248,9 @@
         <QueryStringParameter Name="rbuf" Value="15633" RecordedValue="15633" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="3c755bf1-9542-47a2-a0a2-e0c5215fc32b" Version="1.1" Url="https://r3---sn-nv47ln7k.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="3c755bf1-9542-47a2-a0a2-e0c5215fc32b" Version="1.1" Url="{{WebServer8}}/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="id" Value="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" RecordedValue="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" CorrelationBinding="{{QueryStringParam2154.id}}" UrlEncode="False" UseToGroupResults="False" />
@@ -5292,9 +5292,9 @@
         <QueryStringParameter Name="rbuf" Value="29288" RecordedValue="29288" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="POST" Guid="f86d9f81-1a7d-4833-8391-b154f641f326" Version="1.1" Url="https://www.youtube.com/ad_data_204" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="POST" Guid="f86d9f81-1a7d-4833-8391-b154f641f326" Version="1.1" Url="{{WebServer6}}/ad_data_204" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <FormPostHttpBody>
         <FormPostParameter Name="bid" Value="ANyPxKr3Y-kvl1zP6gkXdDBk19LQSfHJkW_QF6AzN_2iy4J0wzQmEIasmyyKm5Bmohk3qdKLuc7lrsXwvMr1FrtKi5lfGwlzSg" RecordedValue="ANyPxKr3Y-kvl1zP6gkXdDBk19LQSfHJkW_QF6AzN_2iy4J0wzQmEIasmyyKm5Bmohk3qdKLuc7lrsXwvMr1FrtKi5lfGwlzSg" CorrelationBinding="" UrlEncode="True" />
@@ -5315,9 +5315,9 @@
         <FormPostParameter Name="session_token" Value="QUFFLUhqbkVWbURiclBWcGpDZlE5YjBVMGo4ejEySHAyZ3xBQ3Jtc0ttNEZoQlBuTU9BRkJPTXE2dVlpbVNzU0hvalEwWWhoNlBWcDV1U2dpLS03eThzdWtwTGtTcDZSQ2dNbWlxRURjblZUUS00OHUzUm04RGNCb2lpR0VwSllOTjZ1eDlFd1VCNUZ0VkVKcENIbzBSdFN3SjNCZEhLZEN6Zk5BaV9lV0xJQlAzU2VidVpzNnlJTVhDS2dteUgwUkdKZXc=" RecordedValue="QUFFLUhqbkVWbURiclBWcGpDZlE5YjBVMGo4ejEySHAyZ3xBQ3Jtc0ttNEZoQlBuTU9BRkJPTXE2dVlpbVNzU0hvalEwWWhoNlBWcDV1U2dpLS03eThzdWtwTGtTcDZSQ2dNbWlxRURjblZUUS00OHUzUm04RGNCb2lpR0VwSllOTjZ1eDlFd1VCNUZ0VkVKcENIbzBSdFN3SjNCZEhLZEN6Zk5BaV9lV0xJQlAzU2VidVpzNnlJTVhDS2dteUgwUkdKZXc=" CorrelationBinding="{{FormPostParam6.session_token}}" UrlEncode="True" />
       </FormPostHttpBody>
     </Request>
-    <Request Method="POST" Guid="a9d51e93-2de7-4b73-97a2-e04556874fad" Version="1.1" Url="https://www.youtube.com/watch_fragments_ajax" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="POST" Guid="a9d51e93-2de7-4b73-97a2-e04556874fad" Version="1.1" Url="{{WebServer6}}/watch_fragments_ajax" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="v" Value="oQdzXv6eH6E" RecordedValue="oQdzXv6eH6E" CorrelationBinding="{{QueryStringParam2236.v}}" UrlEncode="False" UseToGroupResults="False" />
@@ -5327,12 +5327,12 @@
       </QueryStringParameters>
       <FormPostHttpBody>
         <FormPostParameter Name="session_token" Value="QUFFLUhqbkVWbURiclBWcGpDZlE5YjBVMGo4ejEySHAyZ3xBQ3Jtc0ttNEZoQlBuTU9BRkJPTXE2dVlpbVNzU0hvalEwWWhoNlBWcDV1U2dpLS03eThzdWtwTGtTcDZSQ2dNbWlxRURjblZUUS00OHUzUm04RGNCb2lpR0VwSllOTjZ1eDlFd1VCNUZ0VkVKcENIbzBSdFN3SjNCZEhLZEN6Zk5BaV9lV0xJQlAzU2VidVpzNnlJTVhDS2dteUgwUkdKZXc=" RecordedValue="QUFFLUhqbkVWbURiclBWcGpDZlE5YjBVMGo4ejEySHAyZ3xBQ3Jtc0ttNEZoQlBuTU9BRkJPTXE2dVlpbVNzU0hvalEwWWhoNlBWcDV1U2dpLS03eThzdWtwTGtTcDZSQ2dNbWlxRURjblZUUS00OHUzUm04RGNCb2lpR0VwSllOTjZ1eDlFd1VCNUZ0VkVKcENIbzBSdFN3SjNCZEhLZEN6Zk5BaV9lV0xJQlAzU2VidVpzNnlJTVhDS2dteUgwUkdKZXc=" CorrelationBinding="{{FormPostParam8.session_token}}" UrlEncode="True" />
-        <FormPostParameter Name="client_url" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" RecordedValue="https://www.youtube.com/watch?v=oQdzXv6eH6E" CorrelationBinding="{{FormPostParam9.client_url}}" UrlEncode="True" />
+        <FormPostParameter Name="client_url" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" RecordedValue="https://www.youtube.com/watch?v=oQdzXv6eH6E" CorrelationBinding="{{FormPostParam9.client_url}}" UrlEncode="True" />
       </FormPostHttpBody>
     </Request>
-    <Request Method="GET" Guid="7ed46f0f-cc5b-4b2c-ba79-28e53071a4f0" Version="1.1" Url="https://s.youtube.com/api/stats/watchtime" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="7ed46f0f-cc5b-4b2c-ba79-28e53071a4f0" Version="1.1" Url="{{WebServer7}}/api/stats/watchtime" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="ns" Value="yt" RecordedValue="yt" CorrelationBinding="{{QueryStringParam2329.ns}}" UrlEncode="False" UseToGroupResults="False" />
@@ -5371,9 +5371,9 @@
         <QueryStringParameter Name="et" Value="4.495" RecordedValue="4.495" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="POST" Guid="e19ad9c9-4d36-4534-8dbb-a531c245c678" Version="1.1" Url="https://www.youtube.com/api/stats/atr" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="POST" Guid="e19ad9c9-4d36-4534-8dbb-a531c245c678" Version="1.1" Url="{{WebServer6}}/api/stats/atr" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="ns" Value="yt" RecordedValue="yt" CorrelationBinding="{{QueryStringParam2600.ns}}" UrlEncode="False" UseToGroupResults="False" />
@@ -5412,9 +5412,9 @@
         <FormPostParameter Name="session_token" Value="QUFFLUhqbkVWbURiclBWcGpDZlE5YjBVMGo4ejEySHAyZ3xBQ3Jtc0ttNEZoQlBuTU9BRkJPTXE2dVlpbVNzU0hvalEwWWhoNlBWcDV1U2dpLS03eThzdWtwTGtTcDZSQ2dNbWlxRURjblZUUS00OHUzUm04RGNCb2lpR0VwSllOTjZ1eDlFd1VCNUZ0VkVKcENIbzBSdFN3SjNCZEhLZEN6Zk5BaV9lV0xJQlAzU2VidVpzNnlJTVhDS2dteUgwUkdKZXc=" RecordedValue="QUFFLUhqbkVWbURiclBWcGpDZlE5YjBVMGo4ejEySHAyZ3xBQ3Jtc0ttNEZoQlBuTU9BRkJPTXE2dVlpbVNzU0hvalEwWWhoNlBWcDV1U2dpLS03eThzdWtwTGtTcDZSQ2dNbWlxRURjblZUUS00OHUzUm04RGNCb2lpR0VwSllOTjZ1eDlFd1VCNUZ0VkVKcENIbzBSdFN3SjNCZEhLZEN6Zk5BaV9lV0xJQlAzU2VidVpzNnlJTVhDS2dteUgwUkdKZXc=" CorrelationBinding="{{FormPostParam10.session_token}}" UrlEncode="True" />
       </FormPostHttpBody>
     </Request>
-    <Request Method="GET" Guid="572930ea-e874-4cb0-b75a-6603f8af8b27" Version="1.1" Url="https://r4---sn-u2oxu-f5fs.googlevideo.com/videogoodput" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="572930ea-e874-4cb0-b75a-6603f8af8b27" Version="1.1" Url="{{WebServer11}}/videogoodput" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="id" Value="o-AIlYl-awvaWQcEPonUQeZzgisZkgozEvFlwWBZnLDml7" RecordedValue="o-AIlYl-awvaWQcEPonUQeZzgisZkgozEvFlwWBZnLDml7" CorrelationBinding="{{QueryStringParam2791.id}}" UrlEncode="False" UseToGroupResults="False" />
@@ -5431,9 +5431,9 @@
         <QueryStringParameter Name="cpn" Value="R68L6oroQBYG3JmR" RecordedValue="R68L6oroQBYG3JmR" CorrelationBinding="{{QueryStringParam2781.cpn}}" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
     </Request>
-    <Request Method="GET" Guid="3b9ee311-81aa-411d-98c3-d65f752a8754" Version="1.1" Url="https://r3---sn-nv47ln7k.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="3b9ee311-81aa-411d-98c3-d65f752a8754" Version="1.1" Url="{{WebServer8}}/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
-        <Header Name="Referer" Value="https://www.youtube.com/watch?v=oQdzXv6eH6E" />
+        <Header Name="Referer" Value="{{WebServer6}}/watch?v=oQdzXv6eH6E" />
       </Headers>
       <QueryStringParameters>
         <QueryStringParameter Name="id" Value="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" RecordedValue="o-AKPlV_Ve4lip14gObUEcF4sdq_oi-L5wFS9IzJfIr_Or" CorrelationBinding="{{QueryStringParam2800.id}}" UrlEncode="False" UseToGroupResults="False" />
@@ -5476,6 +5476,19 @@
       </QueryStringParameters>
     </Request>
   </Items>
+  <ContextParameters>
+    <ContextParameter Name="AcademyStage" Value="http://stage.telerikacademy.com" />
+    <ContextParameter Name="WebServer10" Value="https://googleads.g.doubleclick.net" />
+    <ContextParameter Name="WebServer11" Value="https://r4---sn-u2oxu-f5fs.googlevideo.com" />
+    <ContextParameter Name="WebServer2" Value="http://staticxx.facebook.com" />
+    <ContextParameter Name="WebServer3" Value="https://staticxx.facebook.com" />
+    <ContextParameter Name="WebServer4" Value="http://www.youtube.com" />
+    <ContextParameter Name="WebServer5" Value="https://r1---sn-bavc5aoxu-nv4e.googlevideo.com" />
+    <ContextParameter Name="WebServer6" Value="https://www.youtube.com" />
+    <ContextParameter Name="WebServer7" Value="https://s.youtube.com" />
+    <ContextParameter Name="WebServer8" Value="https://r3---sn-nv47ln7k.googlevideo.com" />
+    <ContextParameter Name="WebServer9" Value="https://apis.google.com" />
+  </ContextParameters>
   <ValidationRules>
     <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
     <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">

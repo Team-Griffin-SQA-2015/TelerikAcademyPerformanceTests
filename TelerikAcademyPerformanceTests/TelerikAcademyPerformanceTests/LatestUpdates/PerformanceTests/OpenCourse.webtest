@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WebTest Name="OpenCourse" Id="6cbf1b69-ff99-4c36-b3e9-d8562b088f39" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.b0dcf234-8dd5-48cd-ac71-612fff76444a.rec.webtestresult" ResultsLocale="">
   <Items>
-    <Request Method="GET" Guid="97340d36-dc3f-450a-82b7-fa081de868b2" Version="1.1" Url="http://stage.telerikacademy.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="97340d36-dc3f-450a-82b7-fa081de868b2" Version="1.1" Url="{{AcademyStage}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <DependentRequests>
-        <Request Method="GET" Guid="5778f427-3771-4774-aef6-34f0ed39f435" Version="1.1" Url="http://stage.telerikacademy.com/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="GET" Guid="5778f427-3771-4774-aef6-34f0ed39f435" Version="1.1" Url="{{AcademyStage}}/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
           <Headers>
-            <Header Name="Referer" Value="http://stage.telerikacademy.com/" />
+            <Header Name="Referer" Value="{{AcademyStage}}/" />
           </Headers>
           <QueryStringParameters>
             <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
           </QueryStringParameters>
         </Request>
-        <Request Method="GET" Guid="6262c12e-bbe9-4aab-8a21-a2d03427b9aa" Version="1.1" Url="http://staticxx.facebook.com/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="GET" Guid="6262c12e-bbe9-4aab-8a21-a2d03427b9aa" Version="1.1" Url="{{WebServer2}}/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
           <Headers>
-            <Header Name="Referer" Value="http://stage.telerikacademy.com/" />
+            <Header Name="Referer" Value="{{AcademyStage}}/" />
           </Headers>
           <QueryStringParameters>
             <QueryStringParameter Name="version" Value="42" RecordedValue="42" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
           </QueryStringParameters>
         </Request>
-        <Request Method="GET" Guid="9285791d-164d-4ad7-8d63-26ecbb158865" Version="1.1" Url="https://staticxx.facebook.com/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="GET" Guid="9285791d-164d-4ad7-8d63-26ecbb158865" Version="1.1" Url="{{WebServer3}}/connect/xd_arbiter.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
           <Headers>
-            <Header Name="Referer" Value="http://stage.telerikacademy.com/" />
+            <Header Name="Referer" Value="{{AcademyStage}}/" />
           </Headers>
           <QueryStringParameters>
             <QueryStringParameter Name="version" Value="42" RecordedValue="42" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -29,29 +29,34 @@
         </Request>
       </DependentRequests>
     </Request>
-    <Request Method="GET" Guid="7b960468-74c0-41f5-ac2f-1abf090c985e" Version="1.1" Url="http://stage.telerikacademy.com/Courses/Courses/Details/265" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="GET" Guid="7b960468-74c0-41f5-ac2f-1abf090c985e" Version="1.1" Url="{{AcademyStage}}/Courses/Courses/Details/265" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <DependentRequests>
-        <Request Method="GET" Guid="5aadc8ae-067b-4339-a4f7-ab4ed76aaa75" Version="1.1" Url="http://stage.telerikacademy.com/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="GET" Guid="5aadc8ae-067b-4339-a4f7-ab4ed76aaa75" Version="1.1" Url="{{AcademyStage}}/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
           <Headers>
-            <Header Name="Referer" Value="http://stage.telerikacademy.com/Courses/Courses/Details/265" />
+            <Header Name="Referer" Value="{{AcademyStage}}/Courses/Courses/Details/265" />
           </Headers>
           <QueryStringParameters>
             <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
           </QueryStringParameters>
         </Request>
-        <Request Method="GET" Guid="3bbf277b-5cc7-4138-93a4-5d995fb2de25" Version="1.1" Url="http://stage.telerikacademy.com/Courses/Ajax/LecturerCourses" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://stage.telerikacademy.com/Users/Auth/Login?ReturnUrl=%2fCourses%2fAjax%2fLecturerCourses" ReportingName="" IgnoreHttpStatusCode="False">
+        <Request Method="GET" Guid="3bbf277b-5cc7-4138-93a4-5d995fb2de25" Version="1.1" Url="{{AcademyStage}}/Courses/Ajax/LecturerCourses" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{AcademyStage}}/Users/Auth/Login?ReturnUrl=%2fCourses%2fAjax%2fLecturerCourses" ReportingName="" IgnoreHttpStatusCode="False">
           <Headers>
             <Header Name="Accept" Value="*/*" />
             <Header Name="X-Requested-With" Value="XMLHttpRequest" />
-            <Header Name="Referer" Value="http://stage.telerikacademy.com/Courses/Courses/Details/265" />
+            <Header Name="Referer" Value="{{AcademyStage}}/Courses/Courses/Details/265" />
           </Headers>
         </Request>
       </DependentRequests>
       <Headers>
-        <Header Name="Referer" Value="http://stage.telerikacademy.com/" />
+        <Header Name="Referer" Value="{{AcademyStage}}/" />
       </Headers>
     </Request>
   </Items>
+  <ContextParameters>
+    <ContextParameter Name="AcademyStage" Value="http://stage.telerikacademy.com" />
+    <ContextParameter Name="WebServer2" Value="http://staticxx.facebook.com" />
+    <ContextParameter Name="WebServer3" Value="https://staticxx.facebook.com" />
+  </ContextParameters>
   <ValidationRules>
     <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
     <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
