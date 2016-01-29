@@ -53,6 +53,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="CleanUpOperations\PerformanceTests\CalculateUserPoints.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="CleanUpOperations\PerformanceTests\CalculateHelpingPoints.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="LatestUpdates\PerformanceTests\OpenVideo.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -66,6 +72,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Login.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\Courses\PerformanceTests\ActiveCourses.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\Courses\PerformanceTests\KidsAcademyCourses.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\Courses\PerformanceTests\WebTest1.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Navigation\Forum\LoadTests\ConstantLoadWithTenUsersHomePageFiveMinuteDuration.loadtest">
@@ -89,6 +104,45 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Navigation\Help\PerformanceTests\BgCoder.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\TelerikAcademy\PerformanceTests\CandidateForAcademy.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\TelerikAcademy\PerformanceTests\Tracks.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\TelerikAcademy\PerformanceTests\TracksArchive.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\UserProfile\PerformanceTests\UserProfile.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\UserProfile\PerformanceTests\Calendar.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\UserProfile\PerformanceTests\Friends.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\UserProfile\PerformanceTests\Messages.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\UserProfile\PerformanceTests\TeamWorksList.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\UserProfile\PerformanceTests\EvaluateHomework.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\UserProfile\PerformanceTests\UserSettings.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Navigation\UserProfile\PerformanceTests\LogOut.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Search\PerformanceTests\SearchForCourse.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Search\PerformanceTests\SearchForUser.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="UserSettings\LoadTests\ConstantLoadWithTwentyFiveUsers.loadtest">
@@ -118,6 +172,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="LatestUpdates\LoadTests\" />
+    <Folder Include="Search\LoadTests\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
