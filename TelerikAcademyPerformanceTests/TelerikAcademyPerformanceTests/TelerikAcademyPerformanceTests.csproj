@@ -53,17 +53,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="CleanUpOperations\PerformanceTests\CalculateUserPoints.webtest">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="CleanUpOperations\PerformanceTests\CalculateHelpingPoints.webtest">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="AddCheckInDevice\LoadTests\ConstantLoadWith100Users5Minutes.loadtest">
+    <None Include="LatestUpdates\LoadTests\StepLoadTestOpenCourse500Users10MInutes.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="AddCheckInDevice\PerformanceTests\AddNewDevice.webtest">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="LatestUpdates\PerformanceTests\OpenVideo.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -177,7 +168,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="LatestUpdates\LoadTests\" />
     <Folder Include="Search\LoadTests\" />
   </ItemGroup>
   <Choose>
